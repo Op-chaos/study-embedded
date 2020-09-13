@@ -1,0 +1,3 @@
+hello : a.c b.c c.c
+	@echo $@
+

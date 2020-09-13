@@ -1,0 +1,11 @@
+SRCS:=tunel.c
+OBJS := $(SRCS:.c=.o)
+RM = rm -f
+CC = gcc
+LD  = gcc
+.PHONY:  all
+all: dudu
+dudu : $(OBJS)
+	$(LD) -o $@ $(OBJS) -lm
+clean:
+	$(RM) $(OBJS) dudu.exe
