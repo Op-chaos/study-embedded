@@ -1,4 +1,5 @@
-#include "commmon_algorithm.h"
+#include <stdio.h>
+#include <stdlib.h>
 static float _Vetalk_calcSafeDistance_Oncoming(float readiness_time, float frontvehicle_speed, float frontvehicle_lonaccel, float rearvehicle_speed, float rearvehicle_lonaccel, float min_safety_distance)
 {
     float Distance;
@@ -130,7 +131,7 @@ static float _Vetalk_calcSafeDistance_FrontVehicleStopedFirst(float readiness_ti
  *
  * return float，安全距离
  */
-static float _Vetalk_calcSafeDistance(float readiness_time, float frontvehicle_speed, float rearvehicle_speed, float frontvehicle_lonaccel, float rearvehicle_lonaccel, float min_safety_distance)
+float _Vetalk_calcSafeDistance(float readiness_time, float frontvehicle_speed, float rearvehicle_speed, float frontvehicle_lonaccel, float rearvehicle_lonaccel, float min_safety_distance)
 {
         float  frontvehicle_slowdown_time; /* the time of front vehicle slow down to zero */
         float  rearvehicle_slowdown_time; /* the time of rear vehicle slow down to zero */

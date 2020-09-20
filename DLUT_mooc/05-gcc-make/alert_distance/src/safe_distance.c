@@ -1,10 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
-// #include "commmon_algorithm.h"
 #include "AVW_distance.h"
-#include "EEBL_distance.h"
-#include "FCW_distance.h"
-#include "ICW_distance.h"
+#include "TA_in.h"
 
 void main()
 {

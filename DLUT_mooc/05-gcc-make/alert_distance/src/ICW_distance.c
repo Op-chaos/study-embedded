@@ -1,4 +1,5 @@
-#include "ICW_distance.h"
+#include <stdio.h>
+#include "common_algorithm.h"
 float Vetalk_calcICWWarningDistance(float local_speed)
 {
     float   readiness_time;
@@ -87,7 +88,7 @@ float Vetalk_calcICWEmergencyDistance(float local_speed)
     return _Vetalk_calcSafeDistance(readiness_time, 0.0f, local_speed, 0.0f, rearvehicle_lonaccel, min_safety_distance);
 }
 
-void TA_EvaluateThreatICW(float local_speed)
+extern void TA_EvaluateThreatICW(float local_speed)
 {    
     float d_warning;
     float d_major;

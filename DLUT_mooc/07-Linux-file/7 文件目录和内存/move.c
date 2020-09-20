@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+// move.out oldname newname
 int main(int argc,char *argv[])
 { 
 	int res;

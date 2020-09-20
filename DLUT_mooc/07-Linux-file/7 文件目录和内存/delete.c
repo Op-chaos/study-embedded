@@ -8,6 +8,7 @@ int main(int argc,char *argv[])
 		printf("Parameter missing!\n");
 		exit(0);
 	}
+	printf("入参个数：%d",argc);
 	res = remove( argv[1] );
 	if(res == 0)
 	{ 

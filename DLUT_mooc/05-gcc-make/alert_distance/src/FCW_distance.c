@@ -1,4 +1,5 @@
-#include "FCW_distance.h"
+#include <stdio.h>
+#include "common_algorithm.h"
 float Vetalk_calcFCWSlowedDistance(float frontvehicle_speed, float rearvehicle_speed, float frontvehicle_lonaccel, float rearvehicle_lonaccel)
 {
     float   readiness_time;

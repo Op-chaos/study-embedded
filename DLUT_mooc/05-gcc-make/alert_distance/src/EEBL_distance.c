@@ -1,4 +1,5 @@
-#include "EEBL_distance.h"
+#include "common_algorithm.h"
+#include <stdio.h>
 float Vetalk_calcEEBLSlowedDistance(float frontvehicle_speed, float rearvehicle_speed, float frontvehicle_lonaccel, float rearvehicle_lonaccel)
 {
     float   readiness_time;

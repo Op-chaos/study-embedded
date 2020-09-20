@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+// cope.out oldfile newfile
 int main(int argc,char *argv[])
 { 
 	char c;
