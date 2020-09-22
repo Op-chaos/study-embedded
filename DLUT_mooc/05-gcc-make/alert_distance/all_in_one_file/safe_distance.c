@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "AVW_distance.h"
 #include "TA_in.h"
 
 void main()
@@ -65,4 +64,6 @@ void main()
     TA_EvaluateThreatEBW(80.0/3.6, 60.0/3.6, -7.17, 0);
     TA_EvaluateThreatICW(40/3.6);
     TA_EvaluateThreatICW(60/3.6);
+    TA_EvaluateThreatAVW(40.0/3.6, 40/3.6, -1.15, 0);
+    TA_EvaluateThreatEVW(40/3.6, 40/3.6);
 }
