@@ -1,6 +1,7 @@
 param = safe_distance.o EEBL_distance.o \
 	FCW_distance.o common_algorithm.o ICW_distance.o
-VPATH = ./include:./src
+vpath %.c src
+vpath %.h include
 edit:$(param)
 	gcc -o edit $(param)
 
