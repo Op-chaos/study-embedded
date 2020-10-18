@@ -1,4 +1,4 @@
-param = safe_distance.o EEBL_distance.o \
+param = safe_distance.o EEBL_distance.o AVW_distance.o EVW_distance.o\
 	FCW_distance.o common_algorithm.o ICW_distance.o
 edit:$(param)
 	gcc -o edit $(param)
@@ -16,6 +16,8 @@ ICW_distance.o:ICW_distance.c common_algorithm.h
 
 common_algorithm.o:common_algorithm.c 
 	gcc -c common_algorithm.c 
+
+%.o:common_algorithm.c
 
 clean:
 	rm $(param)
