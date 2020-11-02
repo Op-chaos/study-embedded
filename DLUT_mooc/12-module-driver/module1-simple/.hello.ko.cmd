@@ -1,0 +1,1 @@
+cmd_/home/laixiaochen/example/12/module1/hello.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/laixiaochen/example/12/module1/hello.ko /home/laixiaochen/example/12/module1/hello.o /home/laixiaochen/example/12/module1/hello.mod.o ;  true

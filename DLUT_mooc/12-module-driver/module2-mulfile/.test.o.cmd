@@ -1,0 +1,1 @@
+cmd_/home/laixiaochen/example/12/module2/test.o := ld -m elf_x86_64   -r -o /home/laixiaochen/example/12/module2/test.o /home/laixiaochen/example/12/module2/t1.o /home/laixiaochen/example/12/module2/t2.o 
